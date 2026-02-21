@@ -8,10 +8,6 @@
 - **Python:** 3.8+ recommended.
 - **Dependencies:** Install from `requirements.txt`:
 
-```bash
-pip install -r requirements.txt
-```
-
 **Environment file (.env)**
 - Create a `.env` file in the project root containing your Binance API credentials. Example contents:
 
@@ -22,7 +18,7 @@ BINANCE_API_SECRET=<your-api-secret>
 
 - Keep this file private and do not commit it to source control.
 
-- (Optional) Create and activate a virtual environment before installing dependencies:
+- Create and activate a virtual environment, then install dependencies:
 
 ```bash
 python -m venv venv
