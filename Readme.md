@@ -20,6 +20,12 @@ pip install -r requirements.txt
 python cli.py --symbol BTCUSDT --side BUY --type MARKET --quantity 0.002
 ```
 
+- Example LIMIT order (sell at a specific price):
+
+```bash
+python cli.py --symbol BTCUSDT --side SELL --type LIMIT --quantity 0.002 --price 80000
+```
+
 - **Lightweight GUI:** Start the Tkinter UI and place orders interactively:
 
 ```bash
