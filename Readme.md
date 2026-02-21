@@ -12,6 +12,27 @@
 pip install -r requirements.txt
 ```
 
+**Environment file (.env)**
+- Create a `.env` file in the project root containing your Binance API credentials. Example contents:
+
+```
+BINANCE_API_KEY=<your-api-key>
+BINANCE_API_SECRET=<your-api-secret>
+```
+
+- Keep this file private and do not commit it to source control.
+
+- (Optional) Create and activate a virtual environment before installing dependencies:
+
+```bash
+python -m venv venv
+# Windows activate
+venv\Scripts\activate
+# macOS / Linux activate
+source venv/bin/activate
+pip install -r requirements.txt
+```
+
 **Quick Start**
 
 - **CLI:** Run orders from your terminal using `cli.py`:
